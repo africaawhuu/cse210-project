@@ -2,14 +2,15 @@ using System;
 
 public class Entry
 {
-    // Member variables
     public string _date = "";
     public string _promptText = "";
     public string _entryText = "";
+    public string _mood = ""; // Exceeding requirements: additional detail saved
 
-    // Stub method to display entry details
     public void Display()
     {
-        
+        Console.WriteLine($"Date: {_date} - Prompt: {_promptText}");
+        Console.WriteLine($"Mood: {_mood}");
+        Console.WriteLine($"Entry: {_entryText}\n");
     }
 }
