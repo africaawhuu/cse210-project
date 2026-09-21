@@ -64,6 +64,5 @@ public class Journal
                 _entries.Add(entry);
             }
         }
-        Console.WriteLine($"Journal successfully loaded from {file}\n");
     }
 }

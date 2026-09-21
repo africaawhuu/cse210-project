@@ -79,6 +79,6 @@ class Program
                     Console.WriteLine("Invalid option, please try again.\n");
                     break;
             }
-        }
+            }
     }
 }
