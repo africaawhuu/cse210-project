@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace AbstractionYouTube
 {
     // =========================================================================
-    // COMMENT CLASS
+    // COMMENT CLASS FOR TRACKING COMMENTS ON YOUTUBE VIDEOS
     // =========================================================================
     public class Comment
     {
@@ -34,7 +34,7 @@ namespace AbstractionYouTube
     }
 
     // =========================================================================
-    // VIDEO CLASS
+    // VIDEO CLASS FOR TRACKING YOUTUBE VIDEOS AND COMMENTS
     // =========================================================================
     public class Video
     {
